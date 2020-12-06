@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+background-color: #5F6CAF;
+	
+}
+
+h1{
+	
+font-family: AmbienteSostenible;	
+color: #FFB677;
+		
+}
+
+h3{
+	
+font-family: Manun;
+color:aliceblue;
+	
+}
+
+h2{
+font-family: AmbienteSostenible;	
+color: #5F6CAF;	
+}
+
+h4{
+font-family: Manun;	
+color: #5F6CAF;	
+letter-spacing: 2px;
+	
+}
+
+h6{
+	font-family: Manun;	
+	color: #5F6CAF;
+}
+
+h5{
+	font-family: Manun;
+	color: #FFB677;
+		
+}
+
+p{
+
+	font-size: 18px;
+	font-family: Manun;
+	color: aliceblue;
+
+}
+
+li {
+  display: inline;
+  font-family: Manun;
+  margin-right: 40px;
+}
+
+li a:link{
+ text-decoration: none;
+ color: aliceblue;
+	
+}
+
+li a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+li a:active {
+  text-decoration: underline;
+  color: #FFB677;
+}
+
+li a:hover{
+	text-decoration: none;
+  	background-color: #FFB677;
+	color:  #5F6CAF;
+	padding: 10px;
+	border-radius: 15px;
+	 transition: .5s ease;
+}
+
+
+.logo{
+	
+ margin-right: 10px;
+	
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.secondcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	background-color:#FFB677;
+	
+}
+
+.fourthcontainer {
+  display: flex;
+ margin-left: 200px;
+}
+
+.fifthcontainer{
+	  display: flex;
+}
+
+
+.ThirdBox {
+	
+	width: 150px;
+	background: #FFB677;
+	padding: 50px;
+  	margin-top: 150px;	
+	margin-left: 80px;
+	border-radius: 30px;
+
+}
+
+.FourthBox {
+	
+	width: 800px;
+	background: #5F6CAF;
+	padding: 50px;
+  	margin-top: 50px;	
+	margin-left: 20px;
+	border-radius: 30px;
+	
+}
+
+
+.FifthBox {
+	
+	width: 330px;
+	background: #FFB677;
+	padding: 20px;
+  	margin-top: 20px;	
+	border-radius: 30px;
+	margin-right: 30px;
+	
+}
+
+.FirstButton {
+	
+ background: #FFB677;
+ font-family: AmbienteSostenible;
+ color: #5F6CAF;
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left: 25px;
+ padding-right: 25px;
+ border-style: none;
+ border-radius: 30px;
+}
+
+
+.SecondButton {
+	
+ background: #5F6CAF;
+ font-family: AmbienteSostenible;
+ color:  aliceblue;
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left: 25px;
+ padding-right: 25px;
+ border-style: none;
+ border-radius: 30px;
+}
+
+.vl {
+  border-left: 6px solid #FFB677;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.hl {
+  border-top: 3px double #5F6CAF;
+  height: 10px;
+  margin-top: 30px;
+}
+
+
+.hl2 {
+  border-top: 3px double #FFB677;
+  height: 10px;
+  margin-top: 30px;
+}
+
+
+.hl3 {
+  border-top: 3px double #FFB677;
+  height: 10px;
+}
+
+.inquiry{
+	
+font-family: Manun;
+color: #5F6CAF;
+background-color:aliceblue;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 20px;
+border-style: none;
+border-radius: 40px;
+text-indent: 10px;
+margin-right: 20px;
+}
+
+.feedback{
+	font-family: Manun;	
+	color: #5F6CAF;
+	background-color:aliceblue;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	text-indent: 25px;
+	
+}
+
+.ccontainer {
+  position: relative;
+  margin-top: 100px;
+  margin-right: 20px;
+  width:20%;
+}
+
+.image {
+  display:block;
+  width: 100%;
+  border-radius: 30px;
+  height: auto;
+}
+
+.overlay {
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFB677;
+}
+
+.ccontainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family:Manun;
+}
