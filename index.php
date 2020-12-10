@@ -19,7 +19,7 @@ echo "  \n";
 echo "		<ul>\n";
 echo "			<li><a href=\"index.html\">Home</a>         </li>\n";
 echo "			<li> <a href=\"Join.html\">Join</a></li>\n";
-echo "        	<li><a href=\"OurAnimals.html\">Our Animals</a> </li>\n";
+echo "        	<li><a href=\"OurAnimals.php\">Our Animals</a> </li>\n";
 echo "			<li><a href=\"AboutUs.html\">About Us</a>     </li>\n";
 echo "			<li><a href=\"ContactUs.html\">Contact Us</a>   </li>\n";
 echo "		</ul>\n";
