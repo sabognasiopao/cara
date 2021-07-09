@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+li a:link{
+ text-decoration: none;
+ color: #334257;
+	
+}
+
+li a:visited {
+  text-decoration: none;
+  color:#334257 ;
+}
+
+li a:active {
+  text-decoration: underline;
+  color: #334257;
+}
+
+li a:hover{
+	text-decoration: none;
+  	background-color: #334257;
+	color: whitesmoke;
+	padding: 10px;
+	border-radius: 15px;
+	 transition: .5s ease;
+}
+
+.maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.scndcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.contentcontainer{
+  display: flex;
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #334257;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.vl {
+    border-left: 6px solid #334257;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.leftcontainer {
+    position: relative;
+    width: 30%;
+  }
+
+.rightcontainer{
+    position: relative;
+    width: 30%;
+}
+  
+.image {
+    display: block;
+    width: 450px;
+    height:250px;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #334257;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.rightoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #476072;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+  .leftcontainer:hover .overlay {
+    width: 450px;
+    height:250px;
+  }
+
+  .rightcontainer:hover .rightoverlay {
+    width: 450px;
+    height:250px;
+    left: 0;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
